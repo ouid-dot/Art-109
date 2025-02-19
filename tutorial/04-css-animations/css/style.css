@@ -25,6 +25,7 @@ html {
  html,
  body {
     height: 100%;
+    background-color: aqua;
  }
  
  
@@ -41,15 +42,11 @@ html {
       width: 200px;
     }
   }
-  
-  
   .button {
     animation-name: stretching;
-    animation-duration: 1s;
-  }
-  .button {
-    animation-name: stretching;
-    animation-duration: 1s;
+    animation-duration: 10s;
+    display: inline-block;
+    background-color: yellow;
   }
   span.a {
     display: inline; /* the default for span */
