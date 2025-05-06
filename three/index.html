@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three.js Starter File</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- use an import map to link to the Three.js CDN -->
+
+  <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@v0.174.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.174.0/examples/jsm/"
+        }
+      }
+    </script>
+
+
+  <!-- Link to your Javascript file as a type="module", this will execute the file after the HTML is loaded -->
+  <script type="module" src="cs/main.js"></script>
+
+</head>
+
+
+<body>
+</body>
+
+</html>
